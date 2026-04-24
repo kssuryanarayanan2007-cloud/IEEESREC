@@ -37,7 +37,7 @@ const AnimatedNumber = ({ value, label }: { value: number; label: string }) => {
 
 const StatsSection = () => {
   return (
-    <section className="py-20 relative overflow-hidden bg-slate-50">
+    <section className="py-6 md:py-8 relative overflow-hidden bg-slate-50">
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] mix-blend-overlay pointer-events-none"></div>
       
       {/* Decorative floating shapes */}

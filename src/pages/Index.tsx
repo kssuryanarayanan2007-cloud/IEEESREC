@@ -66,7 +66,7 @@ const Index = () => {
         {/* Content Wrapper - Strict borders, tons of white space */}
         <div className="relative z-10 w-full bg-white border-t border-slate-200">
           
-          <div className="max-w-[1400px] mx-auto px-6 py-24 md:py-32">
+          <div className="max-w-[1400px] mx-auto px-6 py-6 md:py-8">
             <FadeInSection>
               <div className="border border-slate-200 bg-white shadow-sm p-2">
                 <StatsSection />
@@ -76,7 +76,7 @@ const Index = () => {
 
           {/* Symmetrical Split Section */}
           <div className="border-t border-slate-200 bg-[#fafafa]">
-            <div className="max-w-[1400px] mx-auto px-6 py-24 md:py-32 flex flex-col gap-16 md:gap-24">
+            <div className="max-w-[1400px] mx-auto px-6 py-6 md:py-8 flex flex-col gap-16 md:gap-24">
               <FadeInSection>
                 <div className="h-full border border-slate-200 bg-white p-8 hover:shadow-lg transition-shadow duration-700">
                   <div className="mb-8">
@@ -100,7 +100,7 @@ const Index = () => {
           </div>
 
           <div className="border-t border-slate-200 bg-white">
-            <div className="max-w-[1400px] mx-auto px-6 py-24 md:py-32">
+            <div className="max-w-[1400px] mx-auto px-6 py-6 md:py-8">
               <FadeInSection>
                 <LatestHighlightsSection />
               </FadeInSection>
@@ -108,7 +108,7 @@ const Index = () => {
           </div>
 
           <div className="border-t border-slate-200 bg-[#fafafa]">
-            <div className="max-w-[1400px] mx-auto px-6 py-24 md:py-32">
+            <div className="max-w-[1400px] mx-auto px-6 py-6 md:py-8">
               <FadeInSection>
                 <div className="flex flex-col gap-12 items-stretch">
                   <div className="w-full border border-slate-200 bg-white p-8 hover:shadow-[0_20px_40px_rgba(0,0,0,0.03)] transition-all duration-700">
@@ -125,7 +125,7 @@ const Index = () => {
 
 
           <div className="border-t border-slate-200 bg-white">
-            <div className="py-24 md:py-32">
+            <div className="py-6 md:py-8">
               <FadeInSection>
                 <SocietiesSection />
               </FadeInSection>
@@ -143,7 +143,7 @@ const Index = () => {
 
 
           <div className="border-t border-slate-200 bg-[#fafafa]">
-            <div className="py-24 md:py-32">
+            <div className="py-6 md:py-8">
               <FadeInSection>
                 <div className="max-w-[1400px] mx-auto px-6 mb-12">
                   <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-slate-400 mb-2 text-center">Testimonials</p>
@@ -155,7 +155,7 @@ const Index = () => {
           </div>
 
           <div className="border-t border-slate-200 bg-white">
-            <div className="max-w-[1400px] mx-auto px-6 py-24 md:py-32">
+            <div className="max-w-[1400px] mx-auto px-6 py-6 md:py-8">
               <FadeInSection>
                 <FAQSection />
               </FadeInSection>

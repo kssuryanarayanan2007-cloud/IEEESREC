@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const heroImages = [
-  "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=2500",
-  "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=2500",
-  "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=2500",
-  "https://images.unsplash.com/photo-1528644686414-b1531e21b7ff?auto=format&fit=crop&q=80&w=2500"
-];
+import hero1 from "@/assets/gallery/IEEE INAUGURATION/PXL_20250917_055034034.jpg";
+import hero2 from "@/assets/gallery/IEEE INAUGURATION/PXL_20250917_055307736.jpg";
+import hero3 from "@/assets/gallery/IEEE INAUGURATION/PXL_20250917_055400046.jpg";
+
+const heroImages = [hero1, hero2, hero3];
 
 const HeroSection = () => {
    const [currentIndex, setCurrentIndex] = useState(0);
@@ -81,6 +80,26 @@ const HeroSection = () => {
                 Empowering minds and shaping the future through uncompromising technology research.
              </motion.p>
           </div>
+
+          <motion.div
+             initial={{ opacity: 0, y: 20 }}
+             animate={{ opacity: 1, y: 0 }}
+             transition={{ duration: 1.5, delay: 1.5, ease: [0.16, 1, 0.3, 1] }}
+             className="mt-10 md:mt-14"
+          >
+             <a 
+                href="/pixel-perfect/index.html" 
+                className="group relative inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white text-sm uppercase tracking-[0.3em] font-medium overflow-hidden transition-all duration-700 hover:bg-white hover:text-black hover:border-white rounded-full shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
+             >
+                <span className="relative z-10 flex items-center gap-3">
+                   Pixel Perfect Platform
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transform transition-transform duration-500 group-hover:translate-x-1">
+                      <path d="M5 12h14"/>
+                      <path d="m12 5 7 7-7 7"/>
+                   </svg>
+                </span>
+             </a>
+          </motion.div>
           
           {/* Slide Indicators */}
           <motion.div 
