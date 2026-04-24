@@ -81,25 +81,7 @@ const HeroSection = () => {
              </motion.p>
           </div>
 
-          <motion.div
-             initial={{ opacity: 0, y: 20 }}
-             animate={{ opacity: 1, y: 0 }}
-             transition={{ duration: 1.5, delay: 1.5, ease: [0.16, 1, 0.3, 1] }}
-             className="mt-10 md:mt-14"
-          >
-             <a 
-                href="/pixel-perfect/index.html" 
-                className="group relative inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white text-sm uppercase tracking-[0.3em] font-medium overflow-hidden transition-all duration-700 hover:bg-white hover:text-black hover:border-white rounded-full shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
-             >
-                <span className="relative z-10 flex items-center gap-3">
-                   Pixel Perfect Platform
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transform transition-transform duration-500 group-hover:translate-x-1">
-                      <path d="M5 12h14"/>
-                      <path d="m12 5 7 7-7 7"/>
-                   </svg>
-                </span>
-             </a>
-          </motion.div>
+
           
           {/* Slide Indicators */}
           <motion.div 

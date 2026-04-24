@@ -18,7 +18,6 @@ const navLinks = [
   { label: "Funding", href: "/funding" },
   { label: "Contact", href: "/contact" },
   { label: "Admin", href: "/admin" },
-  { label: "Pixel Perfect", href: "/pixel-perfect/index.html" },
 ];
 
 const Navbar = () => {
